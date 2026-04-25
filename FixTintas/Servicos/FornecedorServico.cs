@@ -12,7 +12,7 @@ namespace FixTintas.Servicos
 
         public void Adicionar(Fornecedor fornecedor)
         {
-            if(fornecedor.Name == "")
+            if(fornecedor.Nome == "")
             {
                 Console.WriteLine("Nome Invalido! ");
                 return;
@@ -31,7 +31,7 @@ namespace FixTintas.Servicos
         {
             foreach (var f in lista)
             {
-                Console.WriteLine($"ID: {f.Id} | Nome: {f.Name} | CNPJ: {f.CNPJ} ");
+                Console.WriteLine($"ID: {f.Id} | Nome: {f.Nome} | CNPJ: {f.CNPJ} ");
             }
         }
     }

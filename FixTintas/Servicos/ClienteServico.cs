@@ -5,7 +5,7 @@ using System.Text;
 
 namespace FixTintas.Servicos
 {
-    internal class ClienteServico
+    public class ClienteServico
     {
         public List<Clientes> lista = new List<Clientes>();
         // só pensando... acho que vou criar um contadorID para gerar um ID automatico, não vou vincular o banco agora

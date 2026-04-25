@@ -4,7 +4,11 @@ using System.Text;
 
 namespace FixTintas.Modelos
 {
-    internal class Fornecedor
+    public class Fornecedor
     {
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public string CNPJ { get; set; }
+        
     }
 }

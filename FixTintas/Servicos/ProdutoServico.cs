@@ -28,3 +28,7 @@ namespace FixTintas.Servicos
         }
     }
 }
+
+
+// to achando que estou viagendo demaais no projeto ... professor pediu um esqueleto eu ja meio que criei uma
+// tela no prompt ... acho que vou atualizar isso ... 

@@ -1,0 +1,15 @@
+C:\Projetos_csharp\FixTintas\FixTintas\bin\Debug\net10.0\FixTintas.exe
+C:\Projetos_csharp\FixTintas\FixTintas\bin\Debug\net10.0\FixTintas.deps.json
+C:\Projetos_csharp\FixTintas\FixTintas\bin\Debug\net10.0\FixTintas.runtimeconfig.json
+C:\Projetos_csharp\FixTintas\FixTintas\bin\Debug\net10.0\FixTintas.dll
+C:\Projetos_csharp\FixTintas\FixTintas\bin\Debug\net10.0\FixTintas.pdb
+C:\Projetos_csharp\FixTintas\FixTintas\obj\Debug\net10.0\FixTintas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos_csharp\FixTintas\FixTintas\obj\Debug\net10.0\FixTintas.AssemblyInfoInputs.cache
+C:\Projetos_csharp\FixTintas\FixTintas\obj\Debug\net10.0\FixTintas.AssemblyInfo.cs
+C:\Projetos_csharp\FixTintas\FixTintas\obj\Debug\net10.0\FixTintas.csproj.CoreCompileInputs.cache
+C:\Projetos_csharp\FixTintas\FixTintas\obj\Debug\net10.0\FixTintas.sourcelink.json
+C:\Projetos_csharp\FixTintas\FixTintas\obj\Debug\net10.0\FixTintas.dll
+C:\Projetos_csharp\FixTintas\FixTintas\obj\Debug\net10.0\refint\FixTintas.dll
+C:\Projetos_csharp\FixTintas\FixTintas\obj\Debug\net10.0\FixTintas.pdb
+C:\Projetos_csharp\FixTintas\FixTintas\obj\Debug\net10.0\FixTintas.genruntimeconfig.cache
+C:\Projetos_csharp\FixTintas\FixTintas\obj\Debug\net10.0\ref\FixTintas.dll
