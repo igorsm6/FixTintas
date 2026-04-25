@@ -18,14 +18,14 @@ namespace FixTintas.Servicos
         {
             if (clientes.Nome == "")
             {
-                Console.WriteLine(("Nome Invalido");
-                return;
+                Console.WriteLine("Nome Invalido");
+                return; // AFFFFFFFFF KKKKKKKKKK POR CAUSA DE UM ( PORRA KKKKK 
             }
 
             clientes.Id = contadorID;
             contadorID++;
 
-            list.Add(clientes);
+            lista.Add(clientes);
 
             Console.WriteLine("Cliente cadastrado!");
         }
@@ -77,6 +77,9 @@ namespace FixTintas.Servicos
 
             Console.WriteLine("Cliente não encontrado!");
             //acho que é isso, vou vendo como vai ficar, vamos dar um commit ? opa claro
+            // eu sei que esta dando erro fi, ja vou ver o que eu coloquei de errado papai
+            // vou ver desses erroes ai 
+            
         }
 
     }

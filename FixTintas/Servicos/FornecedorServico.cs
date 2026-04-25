@@ -1,0 +1,38 @@
+﻿using FixTintas.Modelos;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace FixTintas.Servicos
+{
+    public class FornecedorServico
+    {
+        public List<Fornecedor> lista = new List<Fornecedor>();
+        private int contadorId = 1;
+
+        public void Adicionar(Fornecedor fornecedor)
+        {
+            if(fornecedor.Name == "")
+            {
+                Console.WriteLine("Nome Invalido! ");
+                return;
+            }
+
+            fornecedor.Id = contadorId;
+            contadorId++;
+
+            lista.Add(fornecedor);
+
+            Console.WriteLine("Fornecedor Cadastrado!");
+
+        }
+
+        public void Listar()
+        {
+            foreach (var f in lista)
+            {
+                Console.WriteLine($"ID: {f.Id} | Nome: {f.Name} | CNPJ: {f.CNPJ} ");
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+﻿using FixTintas.Modelos;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace FixTintas.Servicos
+{
+    public class ProdutoServico
+    {
+        public List<Produto> lista = new List<Produto>();
+        private int contadorId = 1;
+
+        public void Adicionar(Produto produto)
+        {
+            produto.Id = contadorId;
+            contadorId++;
+            lista.Add(produto);
+
+            Console.WriteLine("Produto Cadastrado!");
+        }
+
+        public void Listar()
+        {
+            foreach (var p in lista)
+            {
+                Console.WriteLine($"ID: {p.Id} | Nome: {p.Nome} | Preço: {p.Preco} | Fornecedor: {p.Fornecedor.Nome}");
+            }
+        }
+    }
+}

@@ -4,7 +4,10 @@ using System.Text;
 
 namespace FixTintas.Modelos
 {
-    internal class Clientes
+    public class Clientes
     {
+        public int Id { get; set; }
+        public string Nome {  get; set; }
+        public string CPF {  get; set; }
     }
 }
