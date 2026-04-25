@@ -5,6 +5,10 @@ using System.Text;
 
 namespace FixTintas.Servicos
 {
+
+    // Classe ProdutoServico, aqui nos vinculamos com a classe produto 
+    //fazendo que todo tipo de alteração, cadastro, remoção etc seja ela a resposavel
+    
     public class ProdutoServico
     {
         public List<Produto> lista = new List<Produto>();
