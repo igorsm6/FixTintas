@@ -11,7 +11,20 @@ namespace FixTintas.Servicos
         private int contadorId = 1;
 
         public void Adicionar(Produto produto)
-        {
+        {          
+
+            if (produto.Fornecedor == null)
+            {
+                Console.WriteLine("Produto precisa de um fornecedor !");
+                return;
+            }
+            
+            if(produto.Preco < 0)
+            {
+                Console.WriteLine("Preço invalido ! ");
+                return;
+            }
+
             produto.Id = contadorId;
             contadorId++;
             lista.Add(produto);

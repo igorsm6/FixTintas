@@ -8,9 +8,11 @@ namespace FixTintas.Modelos
     {
         public int Id { get; set; }
         public string Nome { get; set; }
-        public double Preco {  get; set; }
+        public double Preco { get; set; }
 
-        // criei um namorinho aqui 
+        // Criando uma relacionamento entre fornecedor e produto
         public Fornecedor Fornecedor { get; set; }
+
+
     }
 }

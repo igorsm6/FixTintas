@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FixTintas.Modelos
 {
-    public class Cliente : Pessoa
+    public class Cliente : Entidades
     {
         public string CPF { get; set; }
 

@@ -18,6 +18,12 @@ namespace FixTintas.Servicos
                 return;
             }
 
+            if(fornecedor.CNPJ.Length != 14)
+            {
+                Console.WriteLine("CNPJ Invalido");
+                return;
+            }
+
             fornecedor.Id = contadorId;
             contadorId++;
 

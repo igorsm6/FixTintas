@@ -11,7 +11,28 @@ namespace FixTintas
         {
             // ====================== NA PASTA MODELOS ====================== //
 
+            /* A pasta modelo representa as 'Estrutura' do sistem, onde guardamos os dados
+             * a pasta Modelos serve para as coisas do mundo real, por isso instaciamos elas no program.cs
+             * Cada classe representa uma entidade real e por enquanto só passamos propriedades(atributos)
+             * aqui a gente vai só salvar dados, dados de clientes,produtos,fornecedor e coisas futuras
+             * criamos uma classe Entidade para servir de estrutura para as outras classe, passando herança
+             * Na classe cliente tem as informações dos clientes, a classe fornecedor as informações dos 
+             * dos fornecedores e a classe produtos as informações obviamente dos produtos, porem essa classe
+             * ela foi a unica que ligamos com a classe fornecedor dentro da pasta serviços */
+
+
+            // ====================== NA PASTA Srvicos ====================== //
+            /* aqui fica a logica do sistema a pasta servicos serve para guardar dados em listagens 
+             * para num futuro proximo quando nossas agendas se trobarem eles conectam com o banco de dados
+             * na pasta serviços temos cadastrar, atualizar, remover, buscar, ENTÂO a pasta serviços é ...
+             * os serviços kkkkkkkk, dentro da pasta servicos colocamos as classe, clienteServico, FornecedorServico
+             * e produtoServico,clienteServico responsavel por controlar a entrada de clientes, adicionar, listar
+             * atualizar, remover e segue a mesma logica em fornecedorservico e produtoservico
+             * */
+
             // CLIENTE
+
+
 
             ClienteServico clienteServico = new ClienteServico();
 
@@ -40,6 +61,8 @@ namespace FixTintas
            
             // PRODUTO
             // (ligado ao fornecedor)
+
+            
          
             ProdutoServico produtoServico = new ProdutoServico();
 
@@ -50,18 +73,11 @@ namespace FixTintas
                 Fornecedor = fornecedor
             };
 
+            produto.Fornecedor = fornecedor;
+
             produtoServico.Adicionar(produto);
-
-
-            /* alguns esclarecimento, a pasta servicos serve para guardar dados em listagens 
-             * para num futuro proximo quando nossas agendas se trobarem eles conectam com o banco de dados
-             * na pasta serviços temos cadastrar, atualizar, remover, buscar, ENTÂO a pasta serviços é ...
-             * os serviços kkkkkkkk
-
-            /* ja a pasta Modelos serve para as coisas do mundo real, por isso instaciamos elas
-             * Cada classe representa uma entidade real e por enquanto só passamos propriedades(atributos)
-             * aqui a gente vai só salvar dados, dados de clientes,produtos,fornecedor e coisas futuras
-      
+            Console.ReadLine(); // só para não fechar o programa imediatamente.
+                               
             // LISTAGEM
            
             /* pensei em colocar só visualmente essa listagem mas por enquanto

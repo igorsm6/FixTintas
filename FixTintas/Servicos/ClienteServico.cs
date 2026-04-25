@@ -5,21 +5,28 @@ using System.Text;
 
 namespace FixTintas.Servicos
 {
+
+    //Classe ClienteServico, aqui nos vinculamos a classe cliente 
+    //fazendo que todo tipo de alteração, cadastro, remoção etc seja ela a resposavel
     public class ClienteServico
     {
-        public List<Cliente> lista = new List<Cliente>();
-        // só pensando... acho que vou criar um contadorID para gerar um ID automatico, não vou vincular o banco agora
-        // porem acho interessante os clientes ter ID certo ? gerar manual
+        public List<Cliente> lista = new List<Cliente>();       
 
         private int contadorID = 1;
 
-        //criar né papai
+        //metodo adicionar cliente
         public void Adicionar(Cliente cliente)
         {
             if (cliente.Nome == "")
             {
                 Console.WriteLine("Nome Invalido");
-                return; // AFFFFFFFFF KKKKKKKKKK POR CAUSA DE UM ( PORRA KKKKK 
+                return;  
+            }
+
+            if(cliente.CPF.Length != 11)
+            {
+                Console.WriteLine("CPF Invalido !");
+                return;
             }
 
             cliente.Id = contadorID;

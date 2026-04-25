@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FixTintas.Modelos
 {
-    public class Fornecedor : Pessoa
+    public class Fornecedor : Entidades
     {
         public string CNPJ { get; set; }
 
