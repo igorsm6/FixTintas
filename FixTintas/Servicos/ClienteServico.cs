@@ -7,25 +7,25 @@ namespace FixTintas.Servicos
 {
     public class ClienteServico
     {
-        public List<Clientes> lista = new List<Clientes>();
+        public List<Cliente> lista = new List<Cliente>();
         // só pensando... acho que vou criar um contadorID para gerar um ID automatico, não vou vincular o banco agora
         // porem acho interessante os clientes ter ID certo ? gerar manual
 
         private int contadorID = 1;
 
         //criar né papai
-        public void Adicionar(Clientes clientes)
+        public void Adicionar(Cliente cliente)
         {
-            if (clientes.Nome == "")
+            if (cliente.Nome == "")
             {
                 Console.WriteLine("Nome Invalido");
                 return; // AFFFFFFFFF KKKKKKKKKK POR CAUSA DE UM ( PORRA KKKKK 
             }
 
-            clientes.Id = contadorID;
+            cliente.Id = contadorID;
             contadorID++;
 
-            lista.Add(clientes);
+            lista.Add(cliente);
 
             Console.WriteLine("Cliente cadastrado!");
         }

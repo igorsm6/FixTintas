@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Globalization;
+using System.Globalization; 
 using FixTintas.Modelos;
 using FixTintas.Servicos;
 
@@ -9,27 +9,75 @@ namespace FixTintas
     {
         static void Main(string[] args)
         {
-            ClienteServico servico = new ClienteServico();
+            // ====================== NA PASTA MODELOS ====================== //
 
-                  //criando fornecedor
+            // CLIENTE
 
-            Fornecedor f = new Fornecedor();
-            f.Nome = "Coral";
-            f.CNPJ = "00.000.000/0000-00";
+            ClienteServico clienteServico = new ClienteServico();
 
-            // achei que fosse o nome, e para não ficar confuso instanciei com f, melhor
+            Cliente cliente = new Cliente
+            {
+                Nome = "Igor",
+                CPF = "123.456.789-00"
+            };
+            cliente.Exibir();
+            clienteServico.Adicionar(cliente);
+
+          
+            // FORNECEDOR
 
             FornecedorServico fornecedorServico = new FornecedorServico();
 
-            fornecedorServico.Adicionar(f);
+            Fornecedor fornecedor = new Fornecedor
+            {
+                Nome = "Coral",
+                CNPJ = "00.000.000/0000-00"
+            };
+            fornecedor.Exibir();
+            fornecedorServico.Adicionar(fornecedor);
 
-            //fazendo ligação do produto / fornecedor
 
-            Produto produto = new Produto();
-            produto.Nome = "Tinta Azul";
-            produto.Preco = 150;
-            produto.Fornecedor = f;
+           
+            // PRODUTO
+            // (ligado ao fornecedor)
+         
+            ProdutoServico produtoServico = new ProdutoServico();
 
+            Produto produto = new Produto
+            {
+                Nome = "Tinta Azul",
+                Preco = 150,
+                Fornecedor = fornecedor
+            };
+
+            produtoServico.Adicionar(produto);
+
+
+            /* alguns esclarecimento, a pasta servicos serve para guardar dados em listagens 
+             * para num futuro proximo quando nossas agendas se trobarem eles conectam com o banco de dados
+             * na pasta serviços temos cadastrar, atualizar, remover, buscar, ENTÂO a pasta serviços é ...
+             * os serviços kkkkkkkk
+
+            /* ja a pasta Modelos serve para as coisas do mundo real, por isso instaciamos elas
+             * Cada classe representa uma entidade real e por enquanto só passamos propriedades(atributos)
+             * aqui a gente vai só salvar dados, dados de clientes,produtos,fornecedor e coisas futuras
+      
+            // LISTAGEM
+           
+            /* pensei em colocar só visualmente essa listagem mas por enquanto
+             * vou deiar ela assim como comentario, só caso a gente queria ver se o programa
+             * esta funciondo certinho. bjs GordãoDoPc
+
+           /* Console.WriteLine("\n--- CLIENTES ---");
+            clienteServico.Listar();
+
+            Console.WriteLine("\n--- FORNECEDORES ---");
+            fornecedorServico.Listar();
+
+            Console.WriteLine("\n--- PRODUTOS ---");
+            produtoServico.Listar();
+
+            Console.ReadLine(); */
         }
     }
 }

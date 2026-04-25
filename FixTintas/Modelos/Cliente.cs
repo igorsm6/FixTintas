@@ -4,13 +4,13 @@ using System.Text;
 
 namespace FixTintas.Modelos
 {
-    public class Fornecedor : Pessoa
+    public class Cliente : Pessoa
     {
-        public string CNPJ { get; set; }
+        public string CPF { get; set; }
 
         public override void Exibir()
         {
-            Console.WriteLine($"Fornecedor: {Nome} | CNPJ: {CNPJ}");
+            Console.WriteLine($"Cliente: {Nome} | CPF: {CPF}");
         }
 
     }
