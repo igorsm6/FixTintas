@@ -8,8 +8,8 @@ namespace FixTintas.Servicos
 
     // Classe ProdutoServico, aqui nos vinculamos com a classe produto 
     //fazendo que todo tipo de alteração, cadastro, remoção etc seja ela a resposavel
-    
-    public class ProdutoServico
+
+    public class ProdutoServico : IService<Produto>
     {
         public List<Produto> lista = new List<Produto>();
         private int contadorId = 1;
@@ -46,6 +46,4 @@ namespace FixTintas.Servicos
     }
 }
 
-
-// to achando que estou viagendo demaais no projeto ... professor pediu um esqueleto eu ja meio que criei uma
-// tela no prompt ... acho que vou atualizar isso ... 
+ 

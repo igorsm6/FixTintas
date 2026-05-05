@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FixTintas.Modelos
 {
-    public class Categoria : Entidades
+    public class Categoria : Entidade
     {
         // Ex: Tinta de parede, spray etc
     }

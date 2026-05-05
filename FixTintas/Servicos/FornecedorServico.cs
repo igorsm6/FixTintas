@@ -8,7 +8,7 @@ namespace FixTintas.Servicos
 
     //Classe FornecedorServico, aqui nos vinculamos com a classe fornecedore 
     //fazendo que todo tipo de alteração, cadastro, remoção etc seja ela a resposavel
-    public class FornecedorServico
+    public class FornecedorServico : IService<Fornecedor>
     {
         public List<Fornecedor> lista = new List<Fornecedor>();
         private int contadorId = 1;

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FixTintas.Modelos
 {
-    public class Funcionario : Entidades
+    public class Funcionario : Entidade
     {
         public string CPF { get; set; }
         public string Cargo { get; set; }

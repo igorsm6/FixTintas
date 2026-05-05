@@ -8,7 +8,7 @@ namespace FixTintas.Servicos
 
     //Classe ClienteServico, aqui nos vinculamos a classe cliente 
     //fazendo que todo tipo de alteração, cadastro, remoção etc seja ela a resposavel
-    public class ClienteServico
+    public class ClienteServico : IService<Cliente>
     {
         public List<Cliente> lista = new List<Cliente>();       
 

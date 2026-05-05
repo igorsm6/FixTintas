@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FixTintas.Modelos
 {
-    public class Entidades
+    public abstract class Entidade
     {
         public int Id { get; set; }
         public string Nome { get; set; }
