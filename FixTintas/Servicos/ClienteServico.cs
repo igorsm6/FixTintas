@@ -5,7 +5,8 @@ using System.Text;
 
 namespace FixTintas.Servicos
 {
-
+    // Serviço responsável por gerenciar clientes
+    // Aqui fazemos o básico do CRUD (em memória por enquanto)
     //Classe ClienteServico, aqui nos vinculamos a classe cliente 
     //fazendo que todo tipo de alteração, cadastro, remoção etc seja ela a resposavel
     public class ClienteServico : IService<Cliente>
@@ -37,12 +38,11 @@ namespace FixTintas.Servicos
             Console.WriteLine("Cliente cadastrado!");
         }
 
-        //será que faz sentido eu criar classes separadas ? bom qualquer coisas da para separar depois
+        
 
         public void Listar()
         {
-            //foreach ? ou for ? acho que foreach né tudo em uma linha
-            //aqui eu criei o "cliente"
+            // percorre a lista e mostra cliente por cliente
 
             foreach (var c in lista)
             {
@@ -72,17 +72,18 @@ namespace FixTintas.Servicos
 
         public void Remover(int id)
         {
-            foreach (var c in lista)
+            for (int i = 0; i < lista.Count; i++)
             {
-                if(c.Id == id)
+                if (lista[i].Id == id)
                 {
-                    lista.Remove(c);
+                    lista.RemoveAt(i);
                     Console.WriteLine("Cliente Removido!");
                     return;
                 }
             }
 
             Console.WriteLine("Cliente não encontrado!");
+
             //acho que é isso, vou vendo como vai ficar, vamos dar um commit ? opa claro
             // eu sei que esta dando erro fi, ja vou ver o que eu coloquei de errado papai
             // vou ver desses erroes ai 

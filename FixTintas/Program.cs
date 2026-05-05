@@ -32,7 +32,8 @@ namespace FixTintas
 
             // CLIENTE
 
-
+            // Ponto de entrada do sistema
+            // Aqui só estamos testando a estrutura (modo rascunho)
 
             ClienteServico clienteServico = new ClienteServico();
 
@@ -76,10 +77,10 @@ namespace FixTintas
             produto.Fornecedor = fornecedor;
 
             produtoServico.Adicionar(produto);
-            Console.ReadLine(); // só para não fechar o programa imediatamente.
-                               
+            Console.ReadLine(); // só para não fechar o programa imediatamente.            
+
             // LISTAGEM
-           
+
             /* pensei em colocar só visualmente essa listagem mas por enquanto
              * vou deiar ela assim como comentario, só caso a gente queria ver se o programa
              * esta funciondo certinho. bjs GordãoDoPc

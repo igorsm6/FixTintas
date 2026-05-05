@@ -5,7 +5,7 @@ using System.Text;
 
 namespace FixTintas.Servicos
 {
-
+    // Controle dos fornecedores (bem parecido com cliente)
     //Classe FornecedorServico, aqui nos vinculamos com a classe fornecedore 
     //fazendo que todo tipo de alteração, cadastro, remoção etc seja ela a resposavel
     public class FornecedorServico : IService<Fornecedor>
@@ -36,6 +36,8 @@ namespace FixTintas.Servicos
 
         }
 
+
+        // percorre a lista e mostra fornecedor por fornecedor
         public void Listar()
         {
             foreach (var f in lista)

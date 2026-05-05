@@ -5,7 +5,8 @@ using System.Text;
 
 namespace FixTintas.Servicos
 {
-
+    // Serviço de produtos
+    // Aqui temos algumas regras importantes do sistema
     // Classe ProdutoServico, aqui nos vinculamos com a classe produto 
     //fazendo que todo tipo de alteração, cadastro, remoção etc seja ela a resposavel
 
@@ -15,15 +16,23 @@ namespace FixTintas.Servicos
         private int contadorId = 1;
 
         public void Adicionar(Produto produto)
-        {          
+        {
+            // produto precisa de fornecedor (regra de negócio)
+
 
             if (produto.Fornecedor == null)
             {
                 Console.WriteLine("Produto precisa de um fornecedor !");
                 return;
             }
-            
-            if(produto.Preco < 0)
+
+            if (produto.Categoria == null)
+            {
+                Console.WriteLine("Produto precisa de uma categoria!");
+                return;
+            }
+
+            if (produto.Preco < 0)
             {
                 Console.WriteLine("Preço invalido ! ");
                 return;

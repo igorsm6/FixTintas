@@ -4,6 +4,9 @@ using System.Text;
 
 namespace FixTintas.Modelos
 {
+
+    // Representa um produto (ex: tinta)
+    // Aqui temos o relacionamento com fornecedor
     public class Produto
     {
         public int Id { get; set; }
