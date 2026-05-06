@@ -49,7 +49,7 @@ namespace FixTintas.Servicos
         {
             foreach (var p in lista)
             {
-                Console.WriteLine($"ID: {p.Id} | Nome: {p.Nome} | Preço: {p.Preco} | Fornecedor: {p.Fornecedor.Nome}");
+                Console.WriteLine($"ID: {p.Id} | Nome: {p.Nome} | Preço: {p.Preco} | Fornecedor: {p.Fornecedor.Nome} | Categoria: {p.Categoria.Nome}");
             }
         }
     }

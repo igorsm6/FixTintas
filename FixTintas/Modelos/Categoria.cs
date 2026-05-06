@@ -6,6 +6,6 @@ namespace FixTintas.Modelos
 {
     public class Categoria : Entidade
     {
-        // Ex: Tinta de parede, spray etc
+        // Representa o tipo do produto (ex: tinta, spray, acessórios)
     }
 }
