@@ -36,9 +36,7 @@ namespace FixTintas.Servicos
             lista.Add(cliente);
 
             Console.WriteLine("Cliente cadastrado!");
-        }
-
-        
+        }        
 
         public void Listar()
         {
@@ -49,9 +47,7 @@ namespace FixTintas.Servicos
                 Console.WriteLine($"ID: {c.Id} | Nome: {c.Nome} | CPF: {c.CPF}");
             }
         }
-
-        //faz sentido ter algo para atulizar ? acho que faz né
-
+        
         public void Atualizar(int id, string novoNome, string novoCpf)
         {
             foreach(var c in lista)
@@ -66,9 +62,7 @@ namespace FixTintas.Servicos
             }
 
             Console.WriteLine("Cliente não encontrado!");
-        }
-
-        //fiz o criar atualizar faz sentido o deletar né ?
+        }       
 
         public void Remover(int id)
         {
@@ -82,11 +76,7 @@ namespace FixTintas.Servicos
                 }
             }
 
-            Console.WriteLine("Cliente não encontrado!");
-
-            //acho que é isso, vou vendo como vai ficar, vamos dar um commit ? opa claro
-            // eu sei que esta dando erro fi, ja vou ver o que eu coloquei de errado papai
-            // vou ver desses erroes ai 
+            Console.WriteLine("Cliente não encontrado!");           
             
         }
 

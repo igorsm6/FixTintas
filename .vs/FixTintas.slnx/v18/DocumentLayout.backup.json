@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "C:\\Projetos_csharp\\FixTintas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|c:\\projetos_csharp\\fixtintas\\fixtintas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|solutionrelative:fixtintas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|c:\\projetos_csharp\\fixtintas\\fixtintas\\modelos\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|solutionrelative:fixtintas\\modelos\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|c:\\projetos_csharp\\fixtintas\\fixtintas\\modelos\\entidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|solutionrelative:fixtintas\\modelos\\entidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|c:\\projetos_csharp\\fixtintas\\fixtintas\\modelos\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|solutionrelative:fixtintas\\modelos\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|c:\\projetos_csharp\\fixtintas\\fixtintas\\servicos\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|solutionrelative:fixtintas\\servicos\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|c:\\projetos_csharp\\fixtintas\\fixtintas\\servicos\\produtoservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|solutionrelative:fixtintas\\servicos\\produtoservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|c:\\projetos_csharp\\fixtintas\\fixtintas\\servicos\\clienteservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|solutionrelative:fixtintas\\servicos\\clienteservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|c:\\projetos_csharp\\fixtintas\\fixtintas\\servicos\\fornecedorservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|solutionrelative:fixtintas\\servicos\\fornecedorservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|c:\\projetos_csharp\\fixtintas\\fixtintas\\servicos\\clienteservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|solutionrelative:fixtintas\\servicos\\clienteservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|c:\\projetos_csharp\\fixtintas\\fixtintas\\modelos\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|solutionrelative:fixtintas\\modelos\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|c:\\projetos_csharp\\fixtintas\\fixtintas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|solutionrelative:fixtintas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|c:\\projetos_csharp\\fixtintas\\fixtintas\\servicos\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|solutionrelative:fixtintas\\servicos\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|c:\\projetos_csharp\\fixtintas\\fixtintas\\modelos\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|solutionrelative:fixtintas\\modelos\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|c:\\projetos_csharp\\fixtintas\\fixtintas\\modelos\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|solutionrelative:fixtintas\\modelos\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|c:\\projetos_csharp\\fixtintas\\fixtintas\\modelos\\entidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|solutionrelative:fixtintas\\modelos\\entidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|c:\\projetos_csharp\\fixtintas\\fixtintas\\modelos\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|c:\\projetos_csharp\\fixtintas\\fixtintas\\modelos\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|solutionrelative:fixtintas\\modelos\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|c:\\projetos_csharp\\fixtintas\\fixtintas\\modelos\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA2D70EE-7972-4071-A81E-BF18486D7413}|FixTintas\\FixTintas.csproj|solutionrelative:fixtintas\\modelos\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,11 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IService.cs",
               "DocumentMoniker": "C:\\Projetos_csharp\\FixTintas\\FixTintas\\Servicos\\IService.cs",
               "RelativeDocumentMoniker": "FixTintas\\Servicos\\IService.cs",
@@ -75,82 +75,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "FornecedorServico.cs",
               "DocumentMoniker": "C:\\Projetos_csharp\\FixTintas\\FixTintas\\Servicos\\FornecedorServico.cs",
               "RelativeDocumentMoniker": "FixTintas\\Servicos\\FornecedorServico.cs",
               "ToolTip": "C:\\Projetos_csharp\\FixTintas\\FixTintas\\Servicos\\FornecedorServico.cs",
               "RelativeToolTip": "FixTintas\\Servicos\\FornecedorServico.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwAsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAkwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T02:53:11.812Z"
+              "WhenOpened": "2026-04-26T02:53:11.812Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "ClienteServico.cs",
               "DocumentMoniker": "C:\\Projetos_csharp\\FixTintas\\FixTintas\\Servicos\\ClienteServico.cs",
               "RelativeDocumentMoniker": "FixTintas\\Servicos\\ClienteServico.cs",
               "ToolTip": "C:\\Projetos_csharp\\FixTintas\\FixTintas\\Servicos\\ClienteServico.cs",
               "RelativeToolTip": "FixTintas\\Servicos\\ClienteServico.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAYwAkAAABVAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T02:53:10.374Z"
+              "WhenOpened": "2026-04-26T02:53:10.374Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "Produto.cs",
               "DocumentMoniker": "C:\\Projetos_csharp\\FixTintas\\FixTintas\\Modelos\\Produto.cs",
               "RelativeDocumentMoniker": "FixTintas\\Modelos\\Produto.cs",
               "ToolTip": "C:\\Projetos_csharp\\FixTintas\\FixTintas\\Modelos\\Produto.cs",
               "RelativeToolTip": "FixTintas\\Modelos\\Produto.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T20:57:44.299Z"
+              "WhenOpened": "2026-04-25T20:57:44.299Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Fornecedor.cs",
               "DocumentMoniker": "C:\\Projetos_csharp\\FixTintas\\FixTintas\\Modelos\\Fornecedor.cs",
               "RelativeDocumentMoniker": "FixTintas\\Modelos\\Fornecedor.cs",
               "ToolTip": "C:\\Projetos_csharp\\FixTintas\\FixTintas\\Modelos\\Fornecedor.cs",
               "RelativeToolTip": "FixTintas\\Modelos\\Fornecedor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-25T20:56:46.474Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Entidade.cs",
               "DocumentMoniker": "C:\\Projetos_csharp\\FixTintas\\FixTintas\\Modelos\\Entidade.cs",
               "RelativeDocumentMoniker": "FixTintas\\Modelos\\Entidade.cs",
-              "ToolTip": "C:\\Projetos_csharp\\FixTintas\\FixTintas\\Modelos\\Entidade.cs*",
-              "RelativeToolTip": "FixTintas\\Modelos\\Entidade.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "ToolTip": "C:\\Projetos_csharp\\FixTintas\\FixTintas\\Modelos\\Entidade.cs",
+              "RelativeToolTip": "FixTintas\\Modelos\\Entidade.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-25T20:56:41.281Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Projetos_csharp\\FixTintas\\FixTintas\\Modelos\\Cliente.cs",
               "RelativeDocumentMoniker": "FixTintas\\Modelos\\Cliente.cs",
-              "ToolTip": "C:\\Projetos_csharp\\FixTintas\\FixTintas\\Modelos\\Cliente.cs*",
-              "RelativeToolTip": "FixTintas\\Modelos\\Cliente.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "ToolTip": "C:\\Projetos_csharp\\FixTintas\\FixTintas\\Modelos\\Cliente.cs",
+              "RelativeToolTip": "FixTintas\\Modelos\\Cliente.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA8AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-25T20:56:39.633Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Estoque.cs",
               "DocumentMoniker": "C:\\Projetos_csharp\\FixTintas\\FixTintas\\Modelos\\Estoque.cs",
               "RelativeDocumentMoniker": "FixTintas\\Modelos\\Estoque.cs",
@@ -162,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Funcionario.cs",
               "DocumentMoniker": "C:\\Projetos_csharp\\FixTintas\\FixTintas\\Modelos\\Funcionario.cs",
               "RelativeDocumentMoniker": "FixTintas\\Modelos\\Funcionario.cs",
@@ -174,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Projetos_csharp\\FixTintas\\FixTintas\\Modelos\\Categoria.cs",
               "RelativeDocumentMoniker": "FixTintas\\Modelos\\Categoria.cs",
@@ -186,26 +189,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projetos_csharp\\FixTintas\\FixTintas\\Program.cs",
               "RelativeDocumentMoniker": "FixTintas\\Program.cs",
               "ToolTip": "C:\\Projetos_csharp\\FixTintas\\FixTintas\\Program.cs",
               "RelativeToolTip": "FixTintas\\Program.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAQwE4AAABPAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-25T19:44:49.75Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "ProdutoServico.cs",
               "DocumentMoniker": "C:\\Projetos_csharp\\FixTintas\\FixTintas\\Servicos\\ProdutoServico.cs",
               "RelativeDocumentMoniker": "FixTintas\\Servicos\\ProdutoServico.cs",
               "ToolTip": "C:\\Projetos_csharp\\FixTintas\\FixTintas\\Servicos\\ProdutoServico.cs",
               "RelativeToolTip": "FixTintas\\Servicos\\ProdutoServico.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwC8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-25T19:37:49.908Z",
               "EditorCaption": ""
