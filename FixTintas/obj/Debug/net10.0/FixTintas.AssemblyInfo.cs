@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FixTintas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1e1c682cd4be6e222e4d6eac8329a0294b28c3c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+065f3571ed8dd004805b51e1f0730db7843772dd")]
 [assembly: System.Reflection.AssemblyProductAttribute("FixTintas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FixTintas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

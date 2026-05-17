@@ -11,15 +11,20 @@ namespace FixTintas.Servicos
     //fazendo que todo tipo de alteração, cadastro, remoção etc seja ela a resposavel
     public class ClienteServico : IService<Cliente>
     {
-        public List<Cliente> lista = new List<Cliente>();       
+        // Lista utilizada para simular armazenamento de dados
+        // antes da integração com banco de dados.
 
+        public List<Cliente> lista = new List<Cliente>();
+
+        //// Contador utilizado para gerar IDs automáticos,
+        // simulando o IDENTITY do banco de dados.
         private int contadorID = 1;
 
-        //metodo adicionar cliente
+        // Método responsável por cadastrar clientes na lista.
         public void Adicionar(Cliente cliente)
         {
             if (cliente.Nome == "")
-            {
+            {   
                 Console.WriteLine("Nome Invalido");
                 return;  
             }
@@ -40,7 +45,7 @@ namespace FixTintas.Servicos
 
         public void Listar()
         {
-            // percorre a lista e mostra cliente por cliente
+            // Percorre a lista exibindo todos os clientes cadastrados.
 
             foreach (var c in lista)
             {

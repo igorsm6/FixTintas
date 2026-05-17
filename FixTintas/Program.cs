@@ -9,31 +9,11 @@ namespace FixTintas
     {
         static void Main(string[] args)
         {
-            // ====================== NA PASTA MODELOS ====================== //
-
-            /* a pasta Modelos representa a estrutura do sistema, onde guardamos os dados
-             * a pasta Modelos serve para as coisas do mundo real, por isso instaciamos elas no program.cs
-             * Cada classe representa uma entidade real e por enquanto só passamos propriedades(atributos)
-             * aqui a gente vai só salvar dados, dados de clientes,produtos,fornecedor e coisas futuras
-             * criamos uma classe Entidade para servir de estrutura para as outras classe, passando herança
-             * Na classe cliente tem as informações dos clientes, a classe fornecedor as informações dos 
-             * dos fornecedores e a classe produtos as informações obviamente dos produtos, porem essa classe
-             * ela foi a unica que ligamos com a classe fornecedor dentro da pasta serviços */
-
-
-            // ====================== NA PASTA Srvicos ====================== //
-            /* aqui fica a logica do sistema a pasta servicos serve para guardar dados em listagens 
-             * para num futuro proximo quando nossas agendas se trobarem eles conectam com o banco de dados
-             * na pasta serviços temos cadastrar, atualizar, remover, buscar, ENTÂO a pasta serviços é ...
-             * responsável pelas regras de negócio do sistema, dentro da pasta servicos colocamos as classe, clienteServico, FornecedorServico
-             * e produtoServico,clienteServico responsavel por controlar a entrada de clientes, adicionar, listar
-             * atualizar, remover e segue a mesma logica em fornecedorservico e produtoservico
-             * */
-
+            
             // CLIENTE
 
             // Ponto de entrada do sistema
-            // Aqui só estamos testando a estrutura (modo rascunho)
+            // Aqui só estamos testando a estrutura (rascunho)
 
             ClienteServico clienteServico = new ClienteServico();
 
@@ -80,8 +60,32 @@ namespace FixTintas
                 Categoria = categoria
             };           
 
-            produtoServico.Adicionar(produto);           
-                       
+            produtoServico.Adicionar(produto);
+
+            //FUNCIONARIO
+
+            Funcionario funcionario = new Funcionario
+            {
+                Nome = "Carlos",
+                CPF = "11111111111",
+                Cargo = "Vendedor"
+            };
+
+            // VENDA
+
+            VendaServico vendaServico = new VendaServico();
+
+            Venda venda = new Venda
+            {
+                Cliente = cliente,
+                Funcionario = funcionario,
+                DataVenda = DateTime.Now,
+                FormaPagamento = "PIX",
+                ValorTotal = 150
+            };
+
+            vendaServico.Adicionar(venda);
+
 
             // teste para ver se esta tudo funcionando
 
@@ -93,6 +97,9 @@ namespace FixTintas
 
             Console.WriteLine("\n--- PRODUTOS ---");
             produtoServico.Listar();
+
+            Console.WriteLine("\n--- VENDAS ---");
+            vendaServico.Listar();
 
             Console.WriteLine("\nSistema executado com sucesso!");
             Console.ReadLine();
