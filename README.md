@@ -32,7 +32,6 @@ Em desenvolvimento
 ________________________________________
 Tecnologias utilizadas
 •	C#
-•	.NET
 •	Programação Orientada a Objetos
 ________________________________________
 Objetivo
